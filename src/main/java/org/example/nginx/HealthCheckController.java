@@ -20,7 +20,7 @@ public class HealthCheckController {
     @Value("${server.serverAddress}")
     private String serverAddress;
 
-    @Value("${server.serverName}")
+    @Value("${serverName}")
     private String serverName;
 
 
